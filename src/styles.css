@@ -1,0 +1,147 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+  background-color: var(--secondary-color);
+  margin: 2rem;
+  padding: 3rem;
+  border-radius: 1.5rem;
+  height: max-content;
+}
+
+:root {
+  --primary-color: #fef3c7;
+  --secondary-color: #fcd34d;
+  --button-color: #f5c645;
+  --movie-color: #fef08a;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+header {
+  background-color: var(--primary-color);
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+button:hover {
+  background-color: rgba(245, 159, 11, 0.932);
+}
+
+.header {
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+  margin: 0rem;
+}
+
+#head-desc {
+  font-size: 1rem;
+}
+
+.content {
+  margin-top: 2rem;
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+}
+.genre-button {
+  padding: 0.5rem;
+  margin: 1rem 0rem 0rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--button-color);
+}
+
+ul {
+  padding: 1rem;
+  list-style: none;
+}
+hr {
+  background-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: underline;
+  /* background-color: #fcd34d; */
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.movie-details {
+  background-color: var(--secondary-color);
+  padding: 0.5rem;
+  margin: 1rem 0rem 0.5rem 0rem;
+  border-radius: 0.5rem;
+  display: block;
+}
+.movie-details:hover {
+  /* width:110%; */
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #dfd37c;
+}
+.movie-header {
+  background-color: var(--movie-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  display: block;
+}
+
+.movie-name {
+  font-size: 2rem;
+  margin: 0rem;
+  font-weight: bold;
+}
+.language {
+  display: inline-block;
+}
+.movie-ratings {
+  background-color: var(--movie-color);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.about {
+  margin-top: 2rem;
+  background-color: var(--primary-color);
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
+.about-header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0rem;
+}
+
+.connect {
+  background-color: var(--primary-color);
+  padding: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+  border-radius: 1.5rem;
+}
+li {
+  display: inline-block;
+  margin: 0.5rem;
+}
+a {
+  text-decoration: none;
+  color: var(--button-color);
+  font-weight: bold;
+  margin: 1rem;
+}
+
+a:hover {
+  color: rgba(245, 158, 11, 0.7);
+}
+
+#connect-links {
+  margin: 0rem;
+  padding: 0.5rem;
+}
+.connect p {
+  font-size: 1.25rem;
+  margin: 0.5rem;
+}
