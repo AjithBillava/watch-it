@@ -158,7 +158,7 @@ export default function App() {
               <a href="https://www.instagram.com/ajitvbillava/">Instagram</a>
             </li>
             <li>
-              <a href="https://github.com/Ajitvbillava">Github</a>
+              <a href="https://github.com/Ajithbillava">Github</a>
             </li>
           </ul>
         </div>
